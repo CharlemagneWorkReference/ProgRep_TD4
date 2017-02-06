@@ -20,7 +20,7 @@ public class Client {
         Contact alb = serviceAgenda.accederContact("albert");
 
         System.out.println("Récupéré : " + alb.toString());
-        System.out.println("Ajoute Jean-Bernard");
+        System.out.println("Ajoute KAARIS");
         serviceAgenda.ajouterContact(new Contact("KAARIS 270","kaaris93@gmail.com"));
     }
 }

@@ -20,6 +20,7 @@ public class LancerAgenda {
         lc.accederContact("rich");
 
         try{
+            LocateRegistry.createRegistry(1099);
             Registry reg = LocateRegistry.getRegistry();
             ServiceAgenda serviceAgenda = (ServiceAgenda) UnicastRemoteObject.exportObject(lc,0);
 
